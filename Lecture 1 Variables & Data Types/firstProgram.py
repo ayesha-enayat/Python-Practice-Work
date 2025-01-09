@@ -78,5 +78,53 @@ print(c/d)
 print(c%d)
 print(c**d)
 
+num1=50
+num2=50
+print(num1==num2)
+print(num1!=num2)
+print(num1>num2)
+print(num1<num2)
+print(num1>=num2)
+print(num1<=num2)
+
+num=10
+#num=num+20
+num += 10
+print("num :" , num)
+
+print(not False)
+print(not True)
+print(not (a>b))
+
+val1=True
+val2=False
+print("And Operator: " ,val1 and val2)
+print("OR operator: " ,val1 or val2)
 
 
+#Type Conversion
+#Type Conversion python ka interpreter humare liye automatically khud kardeta hai
+#Type Casting manually type ko convert karna
+
+k=2
+l=4.25
+print(k+l)
+
+m="2"
+n=3.2
+print((int(m)+n))
+
+
+x=3.14
+y=str(x)
+print(type(x),type(y))
+
+
+#Input in Python
+name6=input("Enter your name: ")
+print("welcome ",name6)
+
+
+val6=int(input("Enter val: "))
+print("Entered ",val6) 
+print(type(val6))
