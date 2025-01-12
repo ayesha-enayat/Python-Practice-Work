@@ -59,4 +59,8 @@ for i in range(3):
 
 #WAP to check if a list contains a palindrome of elements 
 list=[1,2,3,2,1]
+if list==list[::-1]:
+    print("list is palindrome")
+else:
+    print("list is not palindrome")
 
